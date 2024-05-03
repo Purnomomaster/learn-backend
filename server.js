@@ -2,8 +2,8 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
-const api = require('./api1.js')
-const middle = require('./middle1.js')
+const api = require('./api.js')
+const middle = require('./middle.js')
 
 const app = express()
 app.use(cors())
